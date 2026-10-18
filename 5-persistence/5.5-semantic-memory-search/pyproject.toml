@@ -1,0 +1,15 @@
+[project]
+name = "l5-5-semantic-memory-search"
+version = "0.1.0"
+description = "Lesson 5.5: Semantic Search over Memories"
+requires-python = ">=3.12"
+dependencies = [
+    "langgraph==1.2.16",
+    "langgraph-checkpoint==4.3.0",
+    "langchain-core==1.6.12",
+    "numpy==2.5.4",
+]
+
+[build-system]
+requires = ["uv_build>=0.9,<0.13"]
+build-backend = "uv_build"

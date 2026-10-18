@@ -1,0 +1,13 @@
+[project]
+name = "l6-1-interrupt-and-resume"
+version = "0.1.0"
+description = "Lesson 6.1: Pausing with interrupt() and Resuming with Command"
+requires-python = ">=3.12"
+dependencies = [
+    "langgraph==1.2.16",
+    "langgraph-checkpoint==4.3.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.9,<0.13"]
+build-backend = "uv_build"

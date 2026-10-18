@@ -1,0 +1,18 @@
+[project]
+name = "l10-6-local-server"
+version = "0.1.0"
+description = "Lesson 10.6: Application Structure and the Local Server"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain-core==1.6.12",
+    "langgraph==1.2.16",
+    "langgraph-checkpoint==4.3.0",
+    "langgraph-cli[inmem]==0.4.36",
+    "langgraph-api==0.16.1",
+    "langgraph-runtime-inmem==0.36.1",
+    "langgraph-sdk==0.4.8",
+]
+
+[build-system]
+requires = ["uv_build>=0.9,<0.13"]
+build-backend = "uv_build"

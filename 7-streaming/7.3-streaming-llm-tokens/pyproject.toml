@@ -1,0 +1,10 @@
+[project]
+name = "l7-3-streaming-llm-tokens"
+version = "0.1.0"
+description = "Lesson 7.3: Streaming LLM Tokens"
+requires-python = ">=3.12"
+dependencies = ["langgraph==1.2.16", "langchain-core==1.6.12"]
+
+[build-system]
+requires = ["uv_build>=0.9,<0.13"]
+build-backend = "uv_build"

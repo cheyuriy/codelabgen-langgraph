@@ -1,0 +1,13 @@
+[project]
+name = "l9-1-entrypoint-and-task"
+version = "0.1.0"
+description = "Lesson 9.1: @entrypoint and @task"
+requires-python = ">=3.12"
+dependencies = [
+    "langgraph==1.2.16",
+    "langgraph-checkpoint==4.3.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.9,<0.13"]
+build-backend = "uv_build"

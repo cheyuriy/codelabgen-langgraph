@@ -1,0 +1,12 @@
+[project]
+name = "l2-2-reducers"
+version = "0.1.0"
+description = "Lesson 2.2: Reducers: How Updates Are Combined"
+requires-python = ">=3.12"
+dependencies = [
+    "langgraph==1.2.16",
+]
+
+[build-system]
+requires = ["uv_build>=0.9,<0.13"]
+build-backend = "uv_build"

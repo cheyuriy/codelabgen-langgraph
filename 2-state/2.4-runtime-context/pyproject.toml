@@ -1,0 +1,12 @@
+[project]
+name = "l2-4-runtime-context"
+version = "0.1.0"
+description = "Lesson 2.4: Runtime Context: Configuration Outside the State"
+requires-python = ">=3.12"
+dependencies = [
+    "langgraph==1.2.16",
+]
+
+[build-system]
+requires = ["uv_build>=0.9,<0.13"]
+build-backend = "uv_build"

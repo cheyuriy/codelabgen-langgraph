@@ -1,0 +1,10 @@
+[project]
+name = "l7-4-event-streaming"
+version = "0.1.0"
+description = "Lesson 7.4: Event Streaming with stream_events v3"
+requires-python = ">=3.12"
+dependencies = ["langgraph==1.2.16", "langchain-core==1.6.12"]
+
+[build-system]
+requires = ["uv_build>=0.9,<0.13"]
+build-backend = "uv_build"

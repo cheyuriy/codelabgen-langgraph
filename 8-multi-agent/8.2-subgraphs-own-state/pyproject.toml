@@ -1,0 +1,14 @@
+[project]
+name = "l8-2-subgraphs-own-state"
+version = "0.1.0"
+description = "Lesson 8.2: Subgraphs with Their Own State"
+requires-python = ">=3.12"
+dependencies = [
+    "langgraph==1.2.16",
+    "langgraph-checkpoint==4.3.0",
+    "langchain-core==1.6.12",
+]
+
+[build-system]
+requires = ["uv_build>=0.9,<0.13"]
+build-backend = "uv_build"

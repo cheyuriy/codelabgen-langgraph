@@ -1,0 +1,7 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "support_desk": "./src/l10_6_local_server/graph.py:make_graph"
+  },
+  "python_version": "3.12"
+}

@@ -1,0 +1,10 @@
+[project]
+name = "l10-4-recover-failed-run"
+version = "0.1.0"
+description = "Lesson 10.4: Recovering a Failed Run"
+requires-python = ">=3.12"
+dependencies = ["langgraph==1.2.16"]
+
+[build-system]
+requires = ["uv_build>=0.9,<0.13"]
+build-backend = "uv_build"
