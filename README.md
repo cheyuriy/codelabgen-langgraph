@@ -1,6 +1,17 @@
 # LangGraph 1.2 in Practice: From a First Graph to Reliable Agents
 
-A hands-on course on LangGraph 1.2.16, the Python library for building stateful workflows and agents as graphs. It starts with state, nodes and edges and moves on to reducers, parallel branches, Send and Command, then tool-calling agents, persistence and long-term memory, human-in-the-loop with interrupt(), streaming (stream modes, typed v2 output, event streaming), subgraphs and multi-agent handoffs, the Functional API, and production concerns: retries, caching, node timeouts, error handlers, durability, testing and the local dev server. Every lesson is a small runnable program that works offline: nodes are plain functions, and LLM steps use scripted fake chat models, so no API keys are needed. The examples come from a few simple domains (support tickets, an online order, a calculator agent, a reading-list assistant) that grow from lesson to lesson. Audience: Python developers who know typing (TypedDict, Annotated) and have a basic idea of chat messages and LLM tool calling. Only current APIs are used (InMemorySaver, interrupt() with Command(resume=...), context_schema, langgraph.types, create_agent instead of create_react_agent). Out of scope: the JS/TS port, LangSmith tracing and evaluation, hosted Agent Server deployment (assistants, double texting, RemoteGraph), the beta DeltaChannel and custom checkpointers, low-level Pregel and channel internals, RAG tutorials, and third-party memory libraries (trustcall, langmem).
+Learn LangGraph by running it. This course takes you from your first graph to agents that you can pause, resume, stream and test, with one small working program per lesson.
+
+- **No API keys, no surprises.** LLM steps use scripted fake chat models, so every example runs offline and gives the same result on your machine.
+- **Learn by changing code.** Each lesson is a short program with tests, a walkthrough of its code, notes on the concept and experiments to try.
+- **Examples that grow.** A support-ticket router, an online order, a calculator agent and a reading-list assistant build up from lesson to lesson.
+- **Current APIs only.** Written for LangGraph 1.2.16: `interrupt()` and `Command`, `InMemorySaver`, `create_agent`, typed v2 streaming.
+
+**What you will learn:** state and routing, tool-calling agents, persistence and memory, human-in-the-loop, streaming, subgraphs and multi-agent handoffs, the Functional API, and production patterns such as retries, timeouts, caching, error handling and testing.
+
+**Who it is for:** Python developers who are comfortable with type hints (`TypedDict`, `Annotated`) and know the basics of chat messages and LLM tool calls. No LangGraph experience needed.
+
+**Not covered:** the JS/TS version, LangSmith, hosted deployment on Agent Server, and LangGraph internals.
 
 ## Getting started
 
@@ -16,6 +27,12 @@ A hands-on course on LangGraph 1.2.16, the Python library for building stateful 
 
    ```bash
    ./run.sh site serve
+   ```
+
+5. Try your own experiments in a separate git branch, so the original lessons stay as they are and you can always compare with them or start again:
+
+   ```bash
+   git switch -c my-experiments
    ```
 
 ## Contents
