@@ -111,3 +111,83 @@ Making graphs dependable: retries, caching, node timeouts, error handlers and no
 - [10.6 Application Structure and the Local Server](10-production/10.6-local-server/README.md) — Packages the support desk as an application: a graph factory module, langgraph.json, and langgraph dev serving it locally; a small script then creates a thread and runs the graph through the langgraph_sdk client.
 
 [Glossary](GLOSSARY.md)
+
+## Sources
+
+The course is built on these materials.
+
+### Official documentation
+
+- [Graph API overview](https://docs.langchain.com/oss/python/langgraph/graph-api)
+- [LangGraph Python API reference](https://reference.langchain.com/python/langgraph)
+- [Interrupts](https://docs.langchain.com/oss/python/langgraph/interrupts)
+- [Persistence](https://docs.langchain.com/oss/python/langgraph/persistence)
+- [Streaming](https://docs.langchain.com/oss/python/langgraph/streaming)
+- [Functional API overview](https://docs.langchain.com/oss/python/langgraph/functional-api)
+- [LangGraph overview](https://docs.langchain.com/oss/python/langgraph/overview)
+- [LangGraph quickstart](https://docs.langchain.com/oss/python/langgraph/quickstart)
+
+### Release notes
+
+- [langgraph 1.1.0 release notes](https://github.com/langchain-ai/langgraph/releases/tag/1.1.0)
+- [langgraph 1.2.0 release notes](https://github.com/langchain-ai/langgraph/releases/tag/1.2.0)
+
+### Official blog
+
+- [Building LangGraph: Designing an Agent Runtime from first principles](https://langchain.com/blog/building-langgraph)
+
+### Package source and tests
+
+- [langgraph core tests (1.2.16)](https://github.com/langchain-ai/langgraph/tree/1.2.16/libs/langgraph/tests)
+- [LangChain docs llms.txt](https://docs.langchain.com/llms.txt)
+- [langgraph package source (graph, pregel, channels, func, types)](https://github.com/langchain-ai/langgraph/tree/1.2.16/libs/langgraph/langgraph)
+- [langgraph examples (notebooks and apps)](https://github.com/langchain-ai/langgraph/tree/1.2.16/examples)
+
+### GitHub repositories
+
+- [LangChain Academy: Introduction to LangGraph](https://github.com/langchain-ai/langchain-academy)
+- [langchain-ai/react-agent](https://github.com/langchain-ai/react-agent)
+- [langchain-ai/memory-agent](https://github.com/langchain-ai/memory-agent)
+- [agent-service-toolkit](https://github.com/JoshuaC215/agent-service-toolkit)
+- [Awesome LangGraph & LangChain Ecosystem](https://github.com/vonzosten/awesome-LangGraph)
+- [TradingAgents](https://github.com/TauricResearch/TradingAgents)
+
+### Articles
+
+- [LangGraph: Pregel for Agents - Inside langchain-ai/langgraph](https://pyshine.com/langgraph)
+- [LangGraph Tutorial: Build a ReAct Agent With the v1.0 API](https://agentsindex.ai/blog/langgraph-tutorial)
+- [Building Your First LangGraph Pipeline: A Decision-Maker's Guide](https://dev.to/labyrinthanalytics/building-your-first-langgraph-pipeline-a-decision-makers-guide-4e25)
+
+### Questions and answers
+
+- [langgraph issues: interrupt and resume](https://github.com/langchain-ai/langgraph/issues?q=is%3Aissue+interrupt)
+- [langgraph issues: reducers and add_messages](https://github.com/langchain-ai/langgraph/issues?q=is%3Aissue+add_messages)
+- [langgraph issues: subgraphs, Command and streaming](https://github.com/langchain-ai/langgraph/issues?q=is%3Aissue+subgraph)
+- [langchain-ai/langgraph: most-reacted issues](https://github.com/langchain-ai/langgraph/issues?q=sort%3Areactions-%2B1-desc)
+- [Merge message issues when LangGraph is called in parallel](https://forum.langchain.com/t/seeking-help-with-some-merge-message-issues-when-langgraph-is-called-in-parallel/3007)
+- [Best practices for parallel nodes (fanouts)](https://forum.langchain.com/t/best-practices-for-parallel-nodes-fanouts/1900)
+
+### Papers and specifications
+
+- [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629)
+- [Pregel: A System for Large-Scale Graph Processing](https://cs.princeton.edu/courses/archive/spring16/cos598F/pregel_paper.pdf)
+- [Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/abs/2303.11366)
+- [AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation](https://arxiv.org/abs/2308.08155)
+- [Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601)
+
+### Talks and workshops
+
+- [LangChain: LangSmith Agent Lifecycle Workshop (official workshop repo)](https://github.com/langchain-ai/langsmith-agent-lifecycle-workshop)
+
+### University courses
+
+- [Agentic Artificial Intelligence (26CSC348) - Amrita Vishwa Vidyapeetham](https://amrita.edu/course/agentic-artificial-intelligence)
+- [CS294/194-196: Agentic AI (UC Berkeley, Fall 2025)](https://rdi.berkeley.edu/agentic-ai/f25)
+- [Stanford CS329A: Self-Improving AI Agents (Autumn 2025)](https://cs329a.stanford.edu)
+
+### Books and courses
+
+- [Introduction to LangGraph - Python (LangChain Academy)](https://academy.langchain.com/courses/intro-to-langgraph)
+- [Project: Ambient Agents with LangGraph (LangChain Academy)](https://academy.langchain.com/courses/ambient-agents)
+- [Long-Term Agentic Memory With LangGraph (DeepLearning.AI)](https://deeplearning.ai/courses/long-term-agentic-memory-with-langgraph)
+- [AI Agents in LangGraph (DeepLearning.AI)](https://deeplearning.ai/courses/ai-agents-in-langgraph)
